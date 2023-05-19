@@ -1,0 +1,138 @@
+.wd-tuiter-search-box {
+    /* background-color: rgb(202, 212, 220);
+    border: none;
+    border-radius: 50px;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 80%;
+    float: left;
+    display: flex; */
+    width: 80%;
+	background-color: lightgray;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.wd-dot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(97, 102, 107);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wd-tuiter-settings {
+    float: right;
+    padding-right: 12px;
+    color:rgb(16, 16, 17);
+    font-size: 300%;
+    text-decoration: none;
+}
+
+.wd-tuiter-navigation-bar {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.wd-tuiter-navigation-bar-active > a {
+    color: black;
+}
+
+.wd-tuiter-active-link-underline {
+    height: 0px;
+    border: 2px solid rgb(29, 161, 242);
+    border-radius: 2px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.wd-tuiter-navigation-bar-inactive > a {
+    color: rgb(97, 102, 107);
+}
+
+.wd-tuiter-navigation-bar-table-header {
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-tuiter-navigation-bar-table-header > a {
+    text-decoration: none;
+}
+
+.wd-tuiter-suggested-post {
+    /* border: 0.5px solid rgb(47, 51, 54); */
+    padding: 10px 20px;
+    display: block;
+    overflow: auto;
+}
+
+.wd-tuiter-trend-category, .wd-tuiter-trend-tweets, .wd-tuiter-author-time {
+    color: rgb(97, 102, 107);
+    font-size: 13px;
+}
+
+.wd-tuiter-trending-name, .wd-tuiter-author-name {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wd-tuiter-trending-page-name {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.wd-tuiter-author-left-end {
+    float: left;
+}
+
+.wd-tuiter-author-right-end {
+    float: right;
+}
+
+.wd-tuiter-author-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-right: -4px;
+    border-radius: 10px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(153, 156, 160);
+    border: none;
+}
+
+.wd-tuiter-search-box > i {
+	font-size: 20px;
+	color: darkgray;
+}
+
+.wd-tuiter-search-box > input{
+	flex: 1;
+	/* height: 40px; */
+	border: none;
+	outline: none;
+	/* font-size: 18px; */
+	/* padding-left: 20px; */
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+  }
+
+.container {
+    position: relative;
+}
