@@ -1,7 +1,3 @@
-body {
-    background-color: black;
-}
-
 .wd-horizontal {
     display: inline-block;
     margin-right: 30px;
@@ -11,11 +7,11 @@ body {
     float: right;
 }
 
-.wd-tuiter-bookmark-body {
+.wd-tuiter-bkm-body {
     border-bottom: 1px solid lightgray;
 }
 
-.wd-tuiter-bookmark-image-icon {
+.wd-tuiter-bkm-image-icon {
     height: 48px;
     width: 48px;
     margin-top: 12px;
@@ -24,23 +20,23 @@ body {
     float: left;
 }
 
-.wd-tuiter-bookmark-user-name,
-.wd-tuiter-bookmark-user-handle,
-.wd-tuiter-bookmark-tuit-date {
+.wd-tuiter-bkm-user-name,
+.wd-tuiter-bkm-user-handle,
+.wd-tuiter-bkm-tuit-date {
     font-size: 15px;
     padding-top: 12px;
     margin-left: 12px;
     float: left;
 }
 
-.wd-tuiter-bookmark-message {
+.wd-tuiter-bkm-message {
     font-size: 15px;
     display: inline-block;
     max-width: 506px;
     padding-left: 12px;
 }
 
-.wd-tuiter-bookmark-image-container {
+.wd-tuiter-bkm-image-container {
     border: 1px solid lightgray;
     border-radius: 10px;
     display: block;
@@ -49,80 +45,79 @@ body {
     margin-top: 12px;
 }
 
-.wd-tuiter-bookmark-image-title {
-    /* color: white; */
+.wd-tuiter-bkm-image-title {
     font-weight: bold;
 }
 
-.wd-tuiter-bookmark-image-message {
-    color: rgb(110, 118, 125);
+.wd-tuiter-bkm-image-message {
+    color: rgb(112, 107, 107);
     display: inline-block;
     margin-top: -10px;
 }
 
-.wd-tuiter-bookmark-icon-container {
+.wd-tuiter-bkm-icon-container {
     padding-top: 12px;
     margin-left: 26px;
     padding-bottom: 12px;
 }
 
-.wd-tuiter-bookmark-icon-text {
-    color:rgb(110, 118, 125);
+.wd-tuiter-bkm-icon-text {
+    color:rgb(112, 107, 107);
     padding-left: 12px;
 }
 
-.wd-tuiter-bookmark-icon-heart {
+.wd-tuiter-bkm-icon-heart {
     color: red;
 }
 
-.wd-tuiter-bookmark-icon-text-heart {
+.wd-tuiter-bkm-icon-text-heart {
     padding-left: 12px;
     color: rgb(212, 23, 155);
 }
 
-.wd-tuiter-bookmark-icon-anchor {
+.wd-tuiter-bkm-icon-anchor {
     text-decoration: none;
     display: table-cell;
     text-align: center;
     padding-left: 50px;
 }
 
-.wd-tuiter-bookmark-image-verified {
+.wd-tuiter-bkm-image-verified {
     height: 2px;
     width: 2px;
 }
 
-.wd-tuiter-bookmark-image {
+.wd-tuiter-bkm-image {
     height: 264px;
     width: 504px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(188, 194, 199);
 }
 
-.wd-tuiter-bookmark-user-name {
+.wd-tuiter-bkm-user-name {
     font-weight: bold;
 }
 
-.wd-tuiter-bookmark-handle {
-    color: rgb(110, 118, 125);
+.wd-tuiter-bkm-handle {
+    color: rgb(112, 107, 107);
     font-size: 13px;
 }
 
-.wd-tuiter-bookmark-title {
+.wd-tuiter-bkm-title {
     font-size: 20px;
     font-weight: bold;
 }
 
-.wd-tuiter-bookmark-user-handle, .wd-tuiter-bookmark-tuit-date {
-    color: rgb(110, 118, 125);
+.wd-tuiter-bkm-user-handle, .wd-tuiter-bkm-tuit-date {
+    color: rgb(112, 107, 107);
 }
 
-.wd-tuiter-bookmark-image-title, .wd-tuiter-bookmark-image-message, .wd-tuiter-bookmark-card-image-url {
+.wd-tuiter-bkm-image-title, .wd-tuiter-bkm-image-message, .wd-tuiter-bkm-card-image-url {
     font-size: 15px;
     padding: 12px;
 }
 
-.wd-tuiter-bookmark-card-image-url {
-    color: rgb(110, 118, 125);
+.wd-tuiter-bkm-card-image-url {
+    color: rgb(112, 107, 107);
 }

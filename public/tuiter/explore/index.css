@@ -16,7 +16,7 @@
 	color: darkgray;
 }
 
-.wd-tuiter-search-box > input{
+.wd-tuiter-search-box > input {
 	flex: 1;
 	border: none;
 	outline: none;
@@ -35,25 +35,25 @@
     margin-right: 60px; 
 }
 
-.wd-tuiter-navigation-bar {
+.wd-tuiter-nav-bar {
     width: 100%;
     margin-left: 20px;
 }
 
-.wd-tuiter-navigation-bar-active > a {
+.wd-tuiter-nav-bar-active > a {
     color: black;
 }
 
-.wd-tuiter-navigation-bar-inactive > a {
+.wd-tuiter-nav-bar-inactive > a {
     color: rgb(97, 102, 107);
 }
 
-.wd-tuiter-navigation-bar-table-header {
+.wd-tuiter-nav-bar-table-header {
     font-size: 15px;
     padding: 16px;
 }
 
-.wd-tuiter-navigation-bar-table-header > a {
+.wd-tuiter-nav-bar-table-header > a {
     text-decoration: none;
 }
 
