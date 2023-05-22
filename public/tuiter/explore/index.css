@@ -1,12 +1,4 @@
 .wd-tuiter-search-box {
-    /* background-color: rgb(202, 212, 220);
-    border: none;
-    border-radius: 50px;
-    margin-left: 12px;
-    margin-top: 10px;
-    width: 80%;
-    float: left;
-    display: flex; */
     width: 80%;
 	background-color: lightgray;
 	border-radius: 50px;
@@ -19,12 +11,15 @@
     float: left;
 }
 
-.wd-dot {
-    height: 5px;
-    width: 5px;
-    background-color: rgb(97, 102, 107);
-    border-radius: 50%;
-    display: inline-block;
+.wd-tuiter-search-box > i {
+	font-size: 20px;
+	color: darkgray;
+}
+
+.wd-tuiter-search-box > input{
+	flex: 1;
+	border: none;
+	outline: none;
 }
 
 .wd-tuiter-settings {
@@ -35,6 +30,11 @@
     text-decoration: none;
 }
 
+.wd-horizontal {
+    display: inline-block;
+    margin-right: 60px; 
+}
+
 .wd-tuiter-navigation-bar {
     width: 100%;
     margin-left: 20px;
@@ -42,14 +42,6 @@
 
 .wd-tuiter-navigation-bar-active > a {
     color: black;
-}
-
-.wd-tuiter-active-link-underline {
-    height: 0px;
-    border: 2px solid rgb(29, 161, 242);
-    border-radius: 2px;
-    width: 25%;
-    margin: 0 auto;
 }
 
 .wd-tuiter-navigation-bar-inactive > a {
@@ -65,36 +57,15 @@
     text-decoration: none;
 }
 
-.wd-tuiter-suggested-post {
-    /* border: 0.5px solid rgb(47, 51, 54); */
-    padding: 10px 20px;
-    display: block;
-    overflow: auto;
+.wd-tuiter-active-link-underline {
+    height: 0px;
+    border: 2px solid rgb(29, 161, 242);
+    border-radius: 2px;
+    width: 10%;
 }
 
-.wd-tuiter-trend-category, .wd-tuiter-trend-tweets, .wd-tuiter-author-time {
-    color: rgb(97, 102, 107);
-    font-size: 13px;
-}
-
-.wd-tuiter-trending-name, .wd-tuiter-author-name {
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.wd-tuiter-trending-page-name {
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.wd-tuiter-author-left-end {
-    float: left;
-}
-
-.wd-tuiter-author-right-end {
-    float: right;
+.container {
+    position: relative;
 }
 
 .wd-tuiter-author-image {
@@ -105,24 +76,29 @@
     border-radius: 10px;
 }
 
-hr {
-    height: 1px;
-    background-color: rgb(153, 156, 160);
-    border: none;
+.wd-live {
+    background-color: rgb(233, 13, 119);
 }
 
-.wd-tuiter-search-box > i {
-	font-size: 20px;
-	color: darkgray;
+.wd-tuiter-suggested-post {
+    padding: 10px 20px;
+    display: block;
+    overflow: auto;
 }
 
-.wd-tuiter-search-box > input{
-	flex: 1;
-	/* height: 40px; */
-	border: none;
-	outline: none;
-	/* font-size: 18px; */
-	/* padding-left: 20px; */
+.wd-tuiter-author-right-end {
+    float: right;
+}
+
+.wd-tuiter-trend-category, .wd-tuiter-trend-tweets {
+    color: rgb(97, 102, 107);
+    font-size: 13px;
+}
+
+.wd-tuiter-trending-name {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .bottom-left {
@@ -131,8 +107,30 @@ hr {
     left: 16px;
     color: white;
     font-weight: bold;
-  }
+}
 
-.container {
-    position: relative;
+hr {
+    height: 1px;
+    background-color: rgb(203, 209, 218);
+    border: none;
+}
+
+.wd-nav-display {
+    display: flex;
+}
+
+.wd-font-tuit-desc {
+    font-size: 90%;
+}
+
+.wd-image-font {
+    margin-top: -40px;
+}
+
+.wd-padding-left {
+    padding-left:1px;
+}
+
+.wd-font-nav-tab {
+    font-size:15px;
 }

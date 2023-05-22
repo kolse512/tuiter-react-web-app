@@ -1,0 +1,24 @@
+.wd-no-bullet {
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+
+.wd-dot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(97, 102, 107);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wd-bg-white {
+    background: white;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float:right;
+}

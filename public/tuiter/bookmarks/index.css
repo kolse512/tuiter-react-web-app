@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+}
+
+.wd-horizontal {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.wd-tuiter-author-right-end {
+    float: right;
+}
+
+.wd-tuiter-bookmark-body {
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-tuiter-bookmark-image-icon {
+    height: 48px;
+    width: 48px;
+    margin-top: 12px;
+    margin-left: 16px;
+    border-radius: 50%;
+    float: left;
+}
+
+.wd-tuiter-bookmark-user-name,
+.wd-tuiter-bookmark-user-handle,
+.wd-tuiter-bookmark-tuit-date {
+    font-size: 15px;
+    padding-top: 12px;
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-tuiter-bookmark-message {
+    font-size: 15px;
+    display: inline-block;
+    max-width: 506px;
+    padding-left: 12px;
+}
+
+.wd-tuiter-bookmark-image-container {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: block;
+    width: 504px;
+    margin-left: 76px;
+    margin-top: 12px;
+}
+
+.wd-tuiter-bookmark-image-title {
+    /* color: white; */
+    font-weight: bold;
+}
+
+.wd-tuiter-bookmark-image-message {
+    color: rgb(110, 118, 125);
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.wd-tuiter-bookmark-icon-container {
+    padding-top: 12px;
+    margin-left: 26px;
+    padding-bottom: 12px;
+}
+
+.wd-tuiter-bookmark-icon-text {
+    color:rgb(110, 118, 125);
+    padding-left: 12px;
+}
+
+.wd-tuiter-bookmark-icon-heart {
+    color: red;
+}
+
+.wd-tuiter-bookmark-icon-text-heart {
+    padding-left: 12px;
+    color: rgb(212, 23, 155);
+}
+
+.wd-tuiter-bookmark-icon-anchor {
+    text-decoration: none;
+    display: table-cell;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.wd-tuiter-bookmark-image-verified {
+    height: 2px;
+    width: 2px;
+}
+
+.wd-tuiter-bookmark-image {
+    height: 264px;
+    width: 504px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-tuiter-bookmark-user-name {
+    font-weight: bold;
+}
+
+.wd-tuiter-bookmark-handle {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-tuiter-bookmark-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-tuiter-bookmark-user-handle, .wd-tuiter-bookmark-tuit-date {
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuiter-bookmark-image-title, .wd-tuiter-bookmark-image-message, .wd-tuiter-bookmark-card-image-url {
+    font-size: 15px;
+    padding: 12px;
+}
+
+.wd-tuiter-bookmark-card-image-url {
+    color: rgb(110, 118, 125);
+}

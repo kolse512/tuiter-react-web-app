@@ -1,105 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Explore</title>
-    <link href="index.css"
-          rel="stylesheet"/>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
-</head>
-<body style="background-color: white">
-    <div id="A">
-        <div class="wd-tuiter-search-box">
-            &#128269;
-            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-            <!-- <i class="gg-search"></i> -->
-            <input type="text" class="wd-tuiter-search-box" placeholder="Search Tuiter">
-        </div>
-        
-        <a href="explore-setting.html" class="wd-tuiter-settings">
-            &#x2699;
-        </a>
-    </div>
-
-    <div id="B">
-        <table class="wd-tuiter-navigation-bar" >
-            <thead>
+    <head>
+        <meta charset="UTF-8">
+        <title>Explore</title>
+        <link href="index.css" rel="stylesheet"/>
+        <link href="../styles.css" rel="stylesheet"/>
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    </head>
+    <body style="background-color: white">
+        <table>
             <tr>
-                <th class="wd-tuiter-navigation-bar-active wd-tuiter-navigation-bar-table-header"><a href="#">For you</a></th>
-                <th class="wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Trending</a></th>
-                <th class="wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">News</a></th>
-                <th class="wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Sports</a></th>
-                <th class="wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Entertainment</a></th>
-            </tr>
-            </thead>
+                <td style="vertical-align: top">
+                    <ul class="wd-no-bullet">
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="explore-css.html">Explore (CSS)</a>
+                        </li>
+                        <li>
+                            <a href="notifications.html">Notifications</a>
+                        </li>
+                        <li>
+                            <a href="messages.html">Messages</a>
+                        </li>
+                        <li>
+                            <a href="bookmarks.html">Bookmarks</a>
+                        </li>
+                        <li>
+                            <a href="lists.html">Lists</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <a href="tuit.html">Tuit</a>
+                        </li>
+                        <li>
+                            <a href="reply.html">Reply</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Explore</a>
+                        </li>
+                    </ul>   
+                </td>
+                <td style="vertical-align: top">
+                    <div id="A">
+                        <div class="wd-tuiter-search-box">
+                            &#128269;
+                            <input type="text" class="wd-tuiter-search-box" placeholder="Search Tuiter">
+                        </div>
+                        <a href="#" class="wd-tuiter-settings">
+                            &#x2699;
+                        </a>
+                    </div>
 
-            <tbody>
-            <tr>
-                <td><div class="wd-tuiter-active-link-underline"></div></td>
+                    <div id="B">
+                        <br/><br/><br/>
+                        <ul class="wd-no-bullet wd-tuiter-navigation-bar">
+                            <li class="wd-horizontal wd-tuiter-navigation-bar-active wd-tuiter-navigation-bar-table-header"><a href="#"><b>For you</b></a></li>
+                            <li class="wd-horizontal wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Trending</a></li>
+                            <li class="wd-horizontal wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">News</a></li>
+                            <li class="wd-horizontal wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Sports</a></li>
+                            <li class="wd-horizontal wd-tuiter-navigation-bar-inactive wd-tuiter-navigation-bar-table-header"><a href="#">Entertainment</a></li>
+                            <li><div class="wd-tuiter-active-link-underline"></div></li>
+                        </ul>
+                    </div>
+
+                    <hr />
+                    <div class="container">
+                        <img class="container wd-tuiter-author-image" src="../../images/crown.jpeg" height="20px" width="100%"/>
+                        <div class="bottom-left">Event .  <span class="wd-live">LIVE</span> </br> The Coronation of King Charles III</div>
+                    </div>
+
+                    <div id="C">
+                        <div class="wd-trending-post wd-tuiter-suggested-post">
+                            <div class="wd-tuiter-author-right-end">
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                            </div>
+                            <ul class="wd-no-bullet">
+                                <li class="wd-tuiter-trend-category">Trending in News</li> 
+                                <li class="wd-tuiter-trending-name">Meghan</li>
+                                <li class="wd-tuiter-trend-tweets">56.1K Tweets</li>
+                            </ul>
+                        </div>
+
+                        <div class="wd-trending-post wd-tuiter-suggested-post">
+                            <div class="wd-tuiter-author-right-end">
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                            </div>
+                            <ul class="wd-no-bullet">
+                                <li class="wd-tuiter-trend-category">Trending</li> 
+                                <li class="wd-tuiter-trending-name">Starlink</li> 
+                                <li class="wd-tuiter-trend-tweets">26.4k Tweets</li> 
+                            </ul>
+                        </div>
+
+                        <div class="wd-trending-post wd-tuiter-suggested-post">
+                            <div class="wd-tuiter-author-right-end">
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                            </div>
+                            <ul class="wd-no-bullet">
+                                <li class="wd-tuiter-trend-category">Trending in Business personalities</li> 
+                                <li class="wd-tuiter-trending-name">Warren Buffett</li> 
+                                <li class="wd-tuiter-trend-tweets">5,502 Tweets</li> 
+                            </ul>
+                        </div>
+
+                        <div class="wd-trending-post wd-tuiter-suggested-post">
+                            <div class="wd-tuiter-author-right-end">
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                            </div>
+                            <ul class="wd-no-bullet">
+                                <li class="wd-tuiter-trend-category">Trending in Political figures</li> 
+                                <li class="wd-tuiter-trending-name">Poland</li> 
+                                <li class="wd-tuiter-trend-tweets">29.9k Tweets</li> 
+                            </ul>
+                        </div>
+
+                        <div class="wd-trending-post wd-tuiter-suggested-post">
+                            <div class="wd-tuiter-author-right-end">
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                                <span class="wd-dot"></span>
+                            </div>
+                            <ul class="wd-no-bullet">
+                                <li class="wd-tuiter-trend-category">Celebrities . Trending</li> 
+                                <li class="wd-tuiter-trending-name">Denzel Washington</li> 
+                                <li class="wd-tuiter-trend-tweets">1,215 Tweets</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </td>
             </tr>
-            </tbody>
         </table>
-    </div>
-    <hr />
-    <div class="container">
-        <img class="container wd-tuiter-author-image" src="../../images/crown.jpeg" height="20px" width="100%"/>
-        <div class="bottom-left">Event .  LIVE </br> The Coronation of King Charles III</div>
-    </div>
-    <div id="C">
-        <div class="wd-trending-post wd-tuiter-suggested-post">
-            <div class="wd-tuiter-author-right-end">
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-            </div>
-            <p class="wd-tuiter-trend-category">Trending in News</p>
-            <p class="wd-tuiter-trending-name">Meghan</p>
-            <p class="wd-tuiter-trend-tweets">56.1K Tweets</p>
-        </div>
-
-        <div class="wd-trending-post wd-tuiter-suggested-post">
-            <div class="wd-tuiter-author-right-end">
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-            </div>
-            <p class="wd-tuiter-trend-category">Trending</p>
-            <p class="wd-tuiter-trending-name">Starlink</p>
-            <p class="wd-tuiter-trend-tweets">26.4k Tweets</p>
-        </div>
-
-        <div class="wd-trending-post wd-tuiter-suggested-post">
-            <div class="wd-tuiter-author-right-end">
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-            </div>
-            <p class="wd-tuiter-trend-category">Trending in Business personalities</p>
-            <p class="wd-tuiter-trending-name">Warren Buffett</p>
-            <p class="wd-tuiter-trend-tweets">5,502 Tweets</p>
-        </div>
-
-        <div class="wd-trending-post wd-tuiter-suggested-post">
-            <div class="wd-tuiter-author-right-end">
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-            </div>
-            <p class="wd-tuiter-trend-category">Trending in Political figures</p>
-            <p class="wd-tuiter-trending-name">Poland</p>
-            <p class="wd-tuiter-trend-tweets">29.9k Tweets</p>
-        </div>
-
-        <div class="wd-trending-post wd-tuiter-suggested-post">
-            <div class="wd-tuiter-author-right-end">
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-                <span class="wd-dot"></span>
-            </div>
-            <p class="wd-tuiter-trend-category">Celebrities . Trending</p>
-            <p class="wd-tuiter-trending-name">Denzel Washington</p>
-            <p class="wd-tuiter-trend-tweets">1,215 Tweets</p>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
