@@ -44,4 +44,5 @@ function ExploreScreen() {
    </>
  );
 };
+
 export default ExploreScreen;
