@@ -1,0 +1,18 @@
+.wd-responsive-text {
+    font-size: 1.1vw;
+}
+
+.wd-nav-display {
+    display: flex;
+}
+
+.wd-icon-width {
+    width: 15px;
+}
+
+.wd-try {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+}
+
