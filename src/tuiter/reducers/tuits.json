@@ -4,7 +4,7 @@
    "liked": true,
    "replies": 123,
    "retuits": 432,
-   "likes": 12345,
+   "likes": 789,
    "handle": "@spacex",
    "tuit": "This morning at 12:34 EST Earth time, a convoy of Tesla Cybertrucks drove across the Martian landscape after picking up the Curiosity, Sojourner, Spirit, and Perserance on their 6' beds"
  },
@@ -13,7 +13,7 @@
    "time": "4d",   "image": "teslaSymbol.jpeg" ,"liked": true,
    "replies": 432,
    "retuits": 654,
-   "likes": 32345,
+   "likes": 567,
    "handle": "@tesla",
    "tuit": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play or sleep"
   },
@@ -23,7 +23,7 @@
    "liked": true,
    "replies": 321,
    "retuits": 543,
-   "likes": 22345,
+   "likes": 123,
    "handle": "@spacex",
    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
  }
