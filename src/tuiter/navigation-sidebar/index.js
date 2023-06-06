@@ -12,7 +12,7 @@ const NavigationSidebar = () => {
         <Link to={"/"} className={`list-group-item ${active === "Tuiter".toLowerCase() ? "active" : ""}`} >
             <i className="bi bi-twitter wd-icon-width  mt-2"></i> 
         </Link>
-        <Link to={"/tuiter/home"} className={`list-group-item ${active === "Home".toLowerCase() ? "active" : ""}`} >
+        <Link to={"/tuiter/home-react"} className={`list-group-item ${active === "Home".toLowerCase() ? "active" : ""}`} >
             <div className="d-flex align-items-center">
                 <i className="bi bi-house-door-fill wd-icon-width mt-2"></i> 
                 <span className="ms-2 d-xl-block d-xxl-block d-none">Home</span>

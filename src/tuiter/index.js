@@ -24,7 +24,7 @@ function Tuiter() {
        </div>
        <div className="col-7">
          <Routes>
-            <Route path="/home" element={<HomeScreen />} />
+            <Route path="/home-react" element={<HomeScreen />} />
             <Route path="/explore-react" element={<ExploreScreen />} />
             <Route path="/bookmarks" element={<BookmarksScreen />} />
             <Route path="/profile" element={<ProfileScreen />} />
