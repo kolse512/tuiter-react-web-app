@@ -6,7 +6,8 @@ import { BiBold, BiItalic } from "react-icons/bi";
 import { TbCalendarStats } from "react-icons/tb";
 import { BsEmojiSmile } from "react-icons/bs";
 import {MdFormatListBulleted} from "react-icons/md";
-import {createTuit} from "./reducers/tuits-reducer";
+// import {createTuit} from "./reducers/tuits-reducer";
+import { createTuitThunk } from "./services/tuits-thunks";
 import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
@@ -16,7 +17,7 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
         setWhatsHappening("");
     }
     return (

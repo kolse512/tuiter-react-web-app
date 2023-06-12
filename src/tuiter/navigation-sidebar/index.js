@@ -1,10 +1,12 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import "./index.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const NavigationSidebar = () => {
  const { pathname } = useLocation();
+ const { currentUser } = useSelector((state) => state.user);
  const [ignore, tuiter, active] = pathname.split("/");
  const links = ["notifications", "messages", "bookmarks", "lists", "profile", "more"];
  return (
@@ -48,12 +50,12 @@ const NavigationSidebar = () => {
                 <span className="ms-2 d-xl-block d-xxl-block d-none ">Lists</span>
             </div>
         </Link>
-        <Link to={"/tuiter/profile"} className={`list-group-item ${active === "Profile".toLowerCase() ? "active" : ""}`} >
+        {currentUser && <Link to={"/tuiter/profile"} className={`list-group-item ${active === "Profile".toLowerCase() ? "active" : ""}`} >
             <div className="d-flex align-items-center">
                 <i className="bi bi-person-fill wd-icon-width mt-2"></i> 
                 <span className="ms-2 d-xl-block d-xxl-block d-none ">Profile</span>
             </div>
-        </Link>
+        </Link>}
 
         <Link to={"/tuiter/more"} className={`list-group-item ${active === "More".toLowerCase() ? "active" : ""}`} >
             <div className="d-flex align-items-center">
@@ -61,6 +63,18 @@ const NavigationSidebar = () => {
                 <span className="ms-2 d-xl-block d-xxl-block d-none">More</span>
             </div>
         </Link>
+        {!currentUser && <Link to={"/tuiter/login"} className={`list-group-item ${active === "Login".toLowerCase() ? "active" : ""}`} >
+            <div className="d-flex align-items-center">
+                <i className="bi bi-person-fill wd-icon-width mt-2"></i> 
+                <span className="ms-2 d-xl-block d-xxl-block d-none ">Login</span>
+            </div>
+        </Link>}
+        {!currentUser && <Link to={"/tuiter/register"} className={`list-group-item ${active === "Register".toLowerCase() ? "active" : ""}`} >
+            <div className="d-flex align-items-center">
+                <i className="bi bi-person-fill wd-icon-width mt-2"></i> 
+                <span className="ms-2 d-xl-block d-xxl-block d-none ">Register</span>
+            </div>
+        </Link>}
     </div>
  );
 };
